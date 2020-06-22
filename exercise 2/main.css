@@ -129,7 +129,7 @@ table {
     border-spacing: 0;
 }
 
-/*=========== Custom CSS ===============*/
+/*========== Custom CSS ============*/
 
 /* Header */
 
@@ -180,35 +180,23 @@ a {
     text-decoration: none;
 }
 
-/* Main */
-
-.text {
-    width: 50%;
-    color: rgb(56, 56, 56);
-    font-size: 15px;
-    display: inline-block;
-}
-
-p {
-    padding-top: 20px;
-    padding-right: 30px;
-    line-height: 20px;
-}
-
-h1 {
-    font-size: 20px;
-    font-weight: bold;
-    padding-top: 20px;
-}
-
-.image {
-    width: 50%;
-    float: right;
+.column {
+    width: 33.33%;
+    margin: auto;
+    float: left;
+    height: 450px;
+    text-align: center;
 }
 
 img {
-    width: 480px;
-    padding-top: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 250px;
+}
+
+p {
+    padding: 0 20px;
+    text-align: justify;
 }
 
 /* Footer */
